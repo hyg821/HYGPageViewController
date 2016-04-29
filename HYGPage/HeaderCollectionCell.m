@@ -15,4 +15,15 @@
     // Initialization code
 }
 
+-(void)becomeRedStyle{
+    self.titleLab.textColor=[UIColor redColor];
+    self.titleLab.font=[UIFont systemFontOfSize:16];
+    self.markView.backgroundColor=[UIColor redColor];
+}
+-(void)becomeBlackStyle{
+    self.titleLab.textColor=[UIColor blackColor];
+    self.titleLab.font=[UIFont systemFontOfSize:14];
+    self.markView.backgroundColor=[UIColor clearColor];
+}
+
 @end

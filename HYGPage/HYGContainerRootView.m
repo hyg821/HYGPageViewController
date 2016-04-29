@@ -84,9 +84,10 @@ static NSString * cellIdentifier=@"ContainerCollectionCell";
 }
 
 -(void)scrollToIndexWithAnimated:(BOOL)animated{
-    NSIndexPath*index=[NSIndexPath indexPathForRow:_selectIndex inSection:0];
+    NSIndexPath*index=[NSIndexPath indexPathForRow:self.selectIndex inSection:0];
     [self.containerCollectionView scrollToItemAtIndexPath:index atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:animated];
 }
+
 
 -(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
     NSInteger selectIndex=scrollView.contentOffset.x/self.frame.size.width;

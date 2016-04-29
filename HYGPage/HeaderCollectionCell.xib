@@ -14,22 +14,43 @@
                 <rect key="frame" x="0.0" y="0.0" width="125" height="95"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeV-EQ-CCD">
-                        <rect key="frame" x="0.0" y="0.0" width="125" height="95"/>
+                        <rect key="frame" x="0.0" y="0.0" width="125" height="93"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2K2-qD-q4x">
+                        <rect key="frame" x="0.0" y="93" width="125" height="2"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <constraints>
+                <constraint firstItem="2K2-qD-q4x" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0h5-Yh-nb5"/>
+                <constraint firstItem="OeV-EQ-CCD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="74e-OI-qZV"/>
                 <constraint firstAttribute="bottom" secondItem="OeV-EQ-CCD" secondAttribute="bottom" id="EtK-oE-hQx"/>
+                <constraint firstItem="OeV-EQ-CCD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Inh-eQ-CSH"/>
                 <constraint firstItem="OeV-EQ-CCD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Jin-gy-uGi"/>
                 <constraint firstAttribute="trailing" secondItem="OeV-EQ-CCD" secondAttribute="trailing" id="KJG-GX-7JI"/>
+                <constraint firstAttribute="bottom" secondItem="OeV-EQ-CCD" secondAttribute="bottom" constant="2" id="Nrs-p3-HYo"/>
                 <constraint firstItem="OeV-EQ-CCD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RcL-xv-G55"/>
+                <constraint firstAttribute="trailing" secondItem="OeV-EQ-CCD" secondAttribute="trailing" id="WSB-BG-eQn"/>
+                <constraint firstAttribute="trailing" secondItem="2K2-qD-q4x" secondAttribute="trailing" id="kdt-Vw-MU2"/>
+                <constraint firstAttribute="bottom" secondItem="2K2-qD-q4x" secondAttribute="bottom" id="qSe-Xt-jq9"/>
+                <constraint firstItem="2K2-qD-q4x" firstAttribute="top" secondItem="OeV-EQ-CCD" secondAttribute="bottom" id="yzO-hc-Hwc"/>
             </constraints>
             <size key="customSize" width="125" height="95"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="EtK-oE-hQx"/>
+                    <exclude reference="Jin-gy-uGi"/>
+                    <exclude reference="KJG-GX-7JI"/>
+                    <exclude reference="RcL-xv-G55"/>
+                </mask>
+            </variation>
             <connections>
+                <outlet property="markView" destination="2K2-qD-q4x" id="rQY-VW-d7V"/>
                 <outlet property="titleLab" destination="OeV-EQ-CCD" id="eGe-Hw-wEU"/>
             </connections>
             <point key="canvasLocation" x="164.5" y="238.5"/>

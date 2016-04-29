@@ -65,7 +65,7 @@ static NSString * cellIdentifier=@"HeaderCollectionCell";
         UICollectionViewFlowLayout*layout=[[UICollectionViewFlowLayout alloc] init];
         layout.scrollDirection=UICollectionViewScrollDirectionHorizontal;
         layout.minimumLineSpacing=1;
-        layout.minimumInteritemSpacing=1;
+        layout.minimumInteritemSpacing=0;
         _headerCollectionView=[[HeaderCollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
         _headerCollectionView.showsVerticalScrollIndicator=NO;
         _headerCollectionView.showsHorizontalScrollIndicator=NO;
@@ -75,6 +75,7 @@ static NSString * cellIdentifier=@"HeaderCollectionCell";
     }
     return _headerCollectionView;
 }
+
 
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
@@ -93,14 +94,17 @@ static NSString * cellIdentifier=@"HeaderCollectionCell";
     HeaderCollectionCell*cell=[collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     cell.titleLab.text=[self.titleArray objectAtIndex:indexPath.row];
     if (indexPath.row==self.selectIndex) {
-        cell.titleLab.textColor=[UIColor redColor];
-        cell.titleLab.font=[UIFont systemFontOfSize:16];
+        [cell becomeRedStyle];
     }else{
-        cell.titleLab.textColor=[UIColor blackColor];
-        cell.titleLab.font=[UIFont systemFontOfSize:14];
+        [cell becomeBlackStyle];
     }
+    
     return cell;
 }
+
+
+
+
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     self.selectIndex=indexPath.row;
@@ -108,6 +112,8 @@ static NSString * cellIdentifier=@"HeaderCollectionCell";
     NSNotification *notification =[NSNotification notificationWithName:@"header" object:nil userInfo:@{@"header":@(self.selectIndex)}];
     [[NSNotificationCenter defaultCenter] postNotification:notification];
 }
+
+
 
 
 -(void)setSelectIndex:(NSInteger)selectIndex{
@@ -119,6 +125,7 @@ static NSString * cellIdentifier=@"HeaderCollectionCell";
     [super didMoveToSuperview];
     [self scrollToIndexWithAnimated:NO];
 }
+
 
 -(void)scrollToIndexWithAnimated:(BOOL)animated{
     [self.headerCollectionView reloadData];

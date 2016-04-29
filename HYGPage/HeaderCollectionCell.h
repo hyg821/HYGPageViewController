@@ -10,5 +10,7 @@
 
 @interface HeaderCollectionCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UILabel *titleLab;
-
+@property (weak, nonatomic) IBOutlet UIView *markView;
+-(void)becomeRedStyle;
+-(void)becomeBlackStyle;
 @end
