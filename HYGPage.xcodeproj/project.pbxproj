@@ -15,16 +15,16 @@
 		B50852881CD1BFE200BE41E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50852861CD1BFE200BE41E4 /* LaunchScreen.storyboard */; };
 		B50852931CD1BFE200BE41E4 /* HYGPageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50852921CD1BFE200BE41E4 /* HYGPageTests.m */; };
 		B508529E1CD1BFE200BE41E4 /* HYGPageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B508529D1CD1BFE200BE41E4 /* HYGPageUITests.m */; };
-		B50852AD1CD1C01600BE41E4 /* HYGProfessionPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50852AC1CD1C01600BE41E4 /* HYGProfessionPageViewController.m */; };
-		B50852B01CD1C0B200BE41E4 /* HYGHeaderRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = B50852AF1CD1C0B200BE41E4 /* HYGHeaderRootView.m */; };
-		B50852B31CD1C10900BE41E4 /* HYGContainerRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = B50852B21CD1C10900BE41E4 /* HYGContainerRootView.m */; };
-		B551FC6B1CD1E0EC003514B5 /* HeaderCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B551FC6A1CD1E0EC003514B5 /* HeaderCollectionView.m */; };
-		B551FC6F1CD1E6CA003514B5 /* HeaderCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B551FC6D1CD1E6CA003514B5 /* HeaderCollectionCell.m */; };
-		B551FC701CD1E6CA003514B5 /* HeaderCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B551FC6E1CD1E6CA003514B5 /* HeaderCollectionCell.xib */; };
-		B551FC821CD1FB4D003514B5 /* ContainerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B551FC811CD1FB4D003514B5 /* ContainerCollectionView.m */; };
-		B551FC861CD1FB61003514B5 /* ContainerCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B551FC841CD1FB61003514B5 /* ContainerCollectionCell.m */; };
-		B551FC871CD1FB61003514B5 /* ContainerCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B551FC851CD1FB61003514B5 /* ContainerCollectionCell.xib */; };
 		B5CB86471CD30A8D00DE57E3 /* myController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB86461CD30A8D00DE57E3 /* myController.m */; };
+		B5EDE1731CD355CA00598AF5 /* ContainerCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDE1631CD355CA00598AF5 /* ContainerCollectionCell.m */; };
+		B5EDE1741CD355CA00598AF5 /* ContainerCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EDE1641CD355CA00598AF5 /* ContainerCollectionCell.xib */; };
+		B5EDE1751CD355CA00598AF5 /* ContainerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDE1661CD355CA00598AF5 /* ContainerCollectionView.m */; };
+		B5EDE1761CD355CA00598AF5 /* HeaderCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDE1681CD355CA00598AF5 /* HeaderCollectionCell.m */; };
+		B5EDE1771CD355CA00598AF5 /* HeaderCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EDE1691CD355CA00598AF5 /* HeaderCollectionCell.xib */; };
+		B5EDE1781CD355CA00598AF5 /* HeaderCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDE16B1CD355CA00598AF5 /* HeaderCollectionView.m */; };
+		B5EDE1791CD355CA00598AF5 /* HYGContainerRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDE16E1CD355CA00598AF5 /* HYGContainerRootView.m */; };
+		B5EDE17A1CD355CA00598AF5 /* HYGHeaderRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDE1701CD355CA00598AF5 /* HYGHeaderRootView.m */; };
+		B5EDE17B1CD355CA00598AF5 /* HYGProfessionPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDE1721CD355CA00598AF5 /* HYGProfessionPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,24 +61,25 @@
 		B50852991CD1BFE200BE41E4 /* HYGPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYGPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B508529D1CD1BFE200BE41E4 /* HYGPageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYGPageUITests.m; sourceTree = "<group>"; };
 		B508529F1CD1BFE200BE41E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B50852AB1CD1C01600BE41E4 /* HYGProfessionPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGProfessionPageViewController.h; sourceTree = "<group>"; };
-		B50852AC1CD1C01600BE41E4 /* HYGProfessionPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGProfessionPageViewController.m; sourceTree = "<group>"; };
-		B50852AE1CD1C0B200BE41E4 /* HYGHeaderRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGHeaderRootView.h; sourceTree = "<group>"; };
-		B50852AF1CD1C0B200BE41E4 /* HYGHeaderRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGHeaderRootView.m; sourceTree = "<group>"; };
-		B50852B11CD1C10900BE41E4 /* HYGContainerRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGContainerRootView.h; sourceTree = "<group>"; };
-		B50852B21CD1C10900BE41E4 /* HYGContainerRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGContainerRootView.m; sourceTree = "<group>"; };
-		B551FC691CD1E0EC003514B5 /* HeaderCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionView.h; sourceTree = "<group>"; };
-		B551FC6A1CD1E0EC003514B5 /* HeaderCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionView.m; sourceTree = "<group>"; };
-		B551FC6C1CD1E6CA003514B5 /* HeaderCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionCell.h; sourceTree = "<group>"; };
-		B551FC6D1CD1E6CA003514B5 /* HeaderCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionCell.m; sourceTree = "<group>"; };
-		B551FC6E1CD1E6CA003514B5 /* HeaderCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCollectionCell.xib; sourceTree = "<group>"; };
-		B551FC801CD1FB4D003514B5 /* ContainerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerCollectionView.h; sourceTree = "<group>"; };
-		B551FC811CD1FB4D003514B5 /* ContainerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerCollectionView.m; sourceTree = "<group>"; };
-		B551FC831CD1FB61003514B5 /* ContainerCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerCollectionCell.h; sourceTree = "<group>"; };
-		B551FC841CD1FB61003514B5 /* ContainerCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerCollectionCell.m; sourceTree = "<group>"; };
-		B551FC851CD1FB61003514B5 /* ContainerCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerCollectionCell.xib; sourceTree = "<group>"; };
 		B5CB86451CD30A8D00DE57E3 /* myController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myController.h; sourceTree = "<group>"; };
 		B5CB86461CD30A8D00DE57E3 /* myController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myController.m; sourceTree = "<group>"; };
+		B5EDE1621CD355CA00598AF5 /* ContainerCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerCollectionCell.h; sourceTree = "<group>"; };
+		B5EDE1631CD355CA00598AF5 /* ContainerCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerCollectionCell.m; sourceTree = "<group>"; };
+		B5EDE1641CD355CA00598AF5 /* ContainerCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerCollectionCell.xib; sourceTree = "<group>"; };
+		B5EDE1651CD355CA00598AF5 /* ContainerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerCollectionView.h; sourceTree = "<group>"; };
+		B5EDE1661CD355CA00598AF5 /* ContainerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerCollectionView.m; sourceTree = "<group>"; };
+		B5EDE1671CD355CA00598AF5 /* HeaderCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionCell.h; sourceTree = "<group>"; };
+		B5EDE1681CD355CA00598AF5 /* HeaderCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionCell.m; sourceTree = "<group>"; };
+		B5EDE1691CD355CA00598AF5 /* HeaderCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCollectionCell.xib; sourceTree = "<group>"; };
+		B5EDE16A1CD355CA00598AF5 /* HeaderCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionView.h; sourceTree = "<group>"; };
+		B5EDE16B1CD355CA00598AF5 /* HeaderCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionView.m; sourceTree = "<group>"; };
+		B5EDE16C1CD355CA00598AF5 /* HeaderCollectionView.temp_caseinsensitive_rename.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionView.temp_caseinsensitive_rename.h; sourceTree = "<group>"; };
+		B5EDE16D1CD355CA00598AF5 /* HYGContainerRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGContainerRootView.h; sourceTree = "<group>"; };
+		B5EDE16E1CD355CA00598AF5 /* HYGContainerRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGContainerRootView.m; sourceTree = "<group>"; };
+		B5EDE16F1CD355CA00598AF5 /* HYGHeaderRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGHeaderRootView.h; sourceTree = "<group>"; };
+		B5EDE1701CD355CA00598AF5 /* HYGHeaderRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGHeaderRootView.m; sourceTree = "<group>"; };
+		B5EDE1711CD355CA00598AF5 /* HYGProfessionPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGProfessionPageViewController.h; sourceTree = "<group>"; };
+		B5EDE1721CD355CA00598AF5 /* HYGProfessionPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGProfessionPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,14 +136,7 @@
 				B508527F1CD1BFE200BE41E4 /* ViewController.m */,
 				B5CB86451CD30A8D00DE57E3 /* myController.h */,
 				B5CB86461CD30A8D00DE57E3 /* myController.m */,
-				B50852AB1CD1C01600BE41E4 /* HYGProfessionPageViewController.h */,
-				B50852AC1CD1C01600BE41E4 /* HYGProfessionPageViewController.m */,
-				B50852AE1CD1C0B200BE41E4 /* HYGHeaderRootView.h */,
-				B50852AF1CD1C0B200BE41E4 /* HYGHeaderRootView.m */,
-				B50852B11CD1C10900BE41E4 /* HYGContainerRootView.h */,
-				B50852B21CD1C10900BE41E4 /* HYGContainerRootView.m */,
-				B551FC651CD1DE6D003514B5 /* headerView */,
-				B551FC711CD1F83F003514B5 /* containerView */,
+				B5EDE1611CD355CA00598AF5 /* HYGPageController */,
 				B50852811CD1BFE200BE41E4 /* Main.storyboard */,
 				B50852841CD1BFE200BE41E4 /* Assets.xcassets */,
 				B50852861CD1BFE200BE41E4 /* LaunchScreen.storyboard */,
@@ -178,28 +172,28 @@
 			path = HYGPageUITests;
 			sourceTree = "<group>";
 		};
-		B551FC651CD1DE6D003514B5 /* headerView */ = {
+		B5EDE1611CD355CA00598AF5 /* HYGPageController */ = {
 			isa = PBXGroup;
 			children = (
-				B551FC691CD1E0EC003514B5 /* HeaderCollectionView.h */,
-				B551FC6A1CD1E0EC003514B5 /* HeaderCollectionView.m */,
-				B551FC6C1CD1E6CA003514B5 /* HeaderCollectionCell.h */,
-				B551FC6D1CD1E6CA003514B5 /* HeaderCollectionCell.m */,
-				B551FC6E1CD1E6CA003514B5 /* HeaderCollectionCell.xib */,
+				B5EDE1621CD355CA00598AF5 /* ContainerCollectionCell.h */,
+				B5EDE1631CD355CA00598AF5 /* ContainerCollectionCell.m */,
+				B5EDE1641CD355CA00598AF5 /* ContainerCollectionCell.xib */,
+				B5EDE1651CD355CA00598AF5 /* ContainerCollectionView.h */,
+				B5EDE1661CD355CA00598AF5 /* ContainerCollectionView.m */,
+				B5EDE1671CD355CA00598AF5 /* HeaderCollectionCell.h */,
+				B5EDE1681CD355CA00598AF5 /* HeaderCollectionCell.m */,
+				B5EDE1691CD355CA00598AF5 /* HeaderCollectionCell.xib */,
+				B5EDE16A1CD355CA00598AF5 /* HeaderCollectionView.h */,
+				B5EDE16B1CD355CA00598AF5 /* HeaderCollectionView.m */,
+				B5EDE16C1CD355CA00598AF5 /* HeaderCollectionView.temp_caseinsensitive_rename.h */,
+				B5EDE16D1CD355CA00598AF5 /* HYGContainerRootView.h */,
+				B5EDE16E1CD355CA00598AF5 /* HYGContainerRootView.m */,
+				B5EDE16F1CD355CA00598AF5 /* HYGHeaderRootView.h */,
+				B5EDE1701CD355CA00598AF5 /* HYGHeaderRootView.m */,
+				B5EDE1711CD355CA00598AF5 /* HYGProfessionPageViewController.h */,
+				B5EDE1721CD355CA00598AF5 /* HYGProfessionPageViewController.m */,
 			);
-			name = headerView;
-			sourceTree = "<group>";
-		};
-		B551FC711CD1F83F003514B5 /* containerView */ = {
-			isa = PBXGroup;
-			children = (
-				B551FC801CD1FB4D003514B5 /* ContainerCollectionView.h */,
-				B551FC811CD1FB4D003514B5 /* ContainerCollectionView.m */,
-				B551FC831CD1FB61003514B5 /* ContainerCollectionCell.h */,
-				B551FC841CD1FB61003514B5 /* ContainerCollectionCell.m */,
-				B551FC851CD1FB61003514B5 /* ContainerCollectionCell.xib */,
-			);
-			name = containerView;
+			path = HYGPageController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,11 +300,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EDE1771CD355CA00598AF5 /* HeaderCollectionCell.xib in Resources */,
 				B50852881CD1BFE200BE41E4 /* LaunchScreen.storyboard in Resources */,
 				B50852851CD1BFE200BE41E4 /* Assets.xcassets in Resources */,
-				B551FC871CD1FB61003514B5 /* ContainerCollectionCell.xib in Resources */,
-				B551FC701CD1E6CA003514B5 /* HeaderCollectionCell.xib in Resources */,
 				B50852831CD1BFE200BE41E4 /* Main.storyboard in Resources */,
+				B5EDE1741CD355CA00598AF5 /* ContainerCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,17 +329,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B551FC6B1CD1E0EC003514B5 /* HeaderCollectionView.m in Sources */,
-				B50852AD1CD1C01600BE41E4 /* HYGProfessionPageViewController.m in Sources */,
+				B5EDE1751CD355CA00598AF5 /* ContainerCollectionView.m in Sources */,
+				B5EDE1781CD355CA00598AF5 /* HeaderCollectionView.m in Sources */,
 				B50852801CD1BFE200BE41E4 /* ViewController.m in Sources */,
-				B551FC821CD1FB4D003514B5 /* ContainerCollectionView.m in Sources */,
 				B508527D1CD1BFE200BE41E4 /* AppDelegate.m in Sources */,
+				B5EDE17A1CD355CA00598AF5 /* HYGHeaderRootView.m in Sources */,
+				B5EDE1731CD355CA00598AF5 /* ContainerCollectionCell.m in Sources */,
+				B5EDE17B1CD355CA00598AF5 /* HYGProfessionPageViewController.m in Sources */,
 				B508527A1CD1BFE200BE41E4 /* main.m in Sources */,
-				B50852B01CD1C0B200BE41E4 /* HYGHeaderRootView.m in Sources */,
-				B551FC861CD1FB61003514B5 /* ContainerCollectionCell.m in Sources */,
-				B551FC6F1CD1E6CA003514B5 /* HeaderCollectionCell.m in Sources */,
-				B50852B31CD1C10900BE41E4 /* HYGContainerRootView.m in Sources */,
+				B5EDE1761CD355CA00598AF5 /* HeaderCollectionCell.m in Sources */,
 				B5CB86471CD30A8D00DE57E3 /* myController.m in Sources */,
+				B5EDE1791CD355CA00598AF5 /* HYGContainerRootView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
